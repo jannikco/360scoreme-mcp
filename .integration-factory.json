@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "fd7c530fd1a39574eb57cfca856c41529d14053ee645fe0153c35ea1363590c6",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.360score.me/openapi/v1.json"
+  ],
+  "id": "360scoreme-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "360Score.me MCP setup and connection checker",
+  "description": "Generate 360Score.me MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "360scoreme",
+  "appName": "360Score.me",
+  "providerDocs": "https://api.360score.me/openapi/v1.json",
+  "providerWebsite": "https://360score.me/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://api.360score.me/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-360scoreme-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
